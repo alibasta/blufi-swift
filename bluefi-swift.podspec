@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'BluFi/*.{h,m,swift}', 'BluFi/BigInt/*.{h,m,swift}'
+  s.source_files = 'BluFi/BigInt/*.{h,m,swift}'
 
   s.frameworks = 'CoreBluetooth'
 end
